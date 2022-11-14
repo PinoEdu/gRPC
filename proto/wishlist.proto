@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package grpc;
 
-option go_package = ""
+option go_package = "https://github.com/PinoEdu/gRPC/tree/master/proto";
 
 message Item {
     enum ItemPriority {
